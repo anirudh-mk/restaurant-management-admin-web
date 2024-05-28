@@ -1,0 +1,36 @@
+.body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 40px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.container form p {
+    padding-bottom: 5px;
+}
+
+.container form input {
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+.container form button {
+    margin-top: 20px;
+    background-color: tomato;
+    outline: none;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+}

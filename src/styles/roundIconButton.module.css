@@ -1,0 +1,13 @@
+.container {
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    background-color: rgb(239, 239, 239);
+    padding: 16px;
+    border-radius: 60px;
+}
+
+.innerContainer {
+    display: flex;
+    justify-content: center;
+}

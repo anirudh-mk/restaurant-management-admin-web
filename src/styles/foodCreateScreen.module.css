@@ -1,0 +1,23 @@
+.body {
+    width: 100%;
+}
+
+.topNavbar {
+    position: fixed;
+    left: 251px;
+    width: calc(100% - 250px - 32px);
+    padding: 16px;
+    border-bottom: 0.1px solid rgb(197, 197, 197);
+    background-color: white;
+}
+
+.topNavbarContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bottomContainer {
+    padding-top: 100px;
+    padding-left: 16px;
+}

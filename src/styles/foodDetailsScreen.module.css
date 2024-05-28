@@ -1,0 +1,131 @@
+.body {
+    padding: 80px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+.headdingContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: min-content;
+}
+
+.headdingContainer p {
+    padding-top: 16px;
+}
+
+.headding {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.headding input {
+    font-size: 24px;
+    outline: none;
+}
+
+.description {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+
+.description textarea {
+    outline: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.a {
+    border: none;
+    outline: none;
+    width: 100px;
+}
+
+.createIcons {
+    display: flex;
+    gap: 10px;
+}
+
+.ingeredients h3 {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.ingeredients form select {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.ingeredients form button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.incredientContainer {
+    background-color: rgb(239, 239, 239);
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ingredientListContainer {
+    gap: 10px;
+    padding-top: 10px;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
+
+.closeButton {
+    border: none;
+    outline: none;
+}
+
+.catogery h3 {
+    padding-top: 20px;
+    padding-bottom: 16px;
+}
+
+.catogery form select {
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.catogery form button {
+    margin-left: 10px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.incredientContainer {
+    background-color: rgb(239, 239, 239);
+    width: max-content;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.ingredientListContainer {
+    gap: 10px;
+    padding-top: 10px;
+    display: flex;
+    width: 1000px;
+    flex-wrap: wrap;
+}
