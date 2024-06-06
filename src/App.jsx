@@ -4,7 +4,7 @@ import Foods from './screens/Foods'
 import LayoutScreen from './screens/LayoutScreen'
 import { Route, Router, Routes } from 'react-router-dom'
 import LoginScreen from './screens/LoginScreen'
-
+import toast, { Toaster } from 'react-hot-toast';
 function App() {
   return (
     <>
@@ -13,6 +13,7 @@ function App() {
         <Route path="/login" element={<LoginScreen />} />
         <Route path="/layout/*" element={<LayoutScreen />} />
       </Routes>
+      <Toaster position="bottom-center" reverseOrder={false} />
     </>
   )
 }
