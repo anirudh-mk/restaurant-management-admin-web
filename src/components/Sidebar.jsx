@@ -12,9 +12,9 @@ function Sidebar({ children }) {
                 </div>
                 <div className={style.buttonContainer}>
                     <div className={style.topButtonContainer}>
-                        <NavLink to={"dashboard"}>
+                        {/* <NavLink to={"dashboard"}>
                             <IconButton title="dashboard" />
-                        </NavLink>
+                        </NavLink> */}
                         <NavLink to={"foods"}>
                             <IconButton title="foods" />
                         </NavLink>

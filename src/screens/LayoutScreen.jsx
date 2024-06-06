@@ -10,7 +10,7 @@ function LayoutScreen() {
         <>
             <Sidebar>
                 <Routes>
-                    <Route path="dashboard" element={<DashboardScreen />} />
+                    {/* <Route path="dashboard" element={<DashboardScreen />} /> */}
                     <Route path="foods" element={<Foods />} />
                     <Route path='foods/create' element={<FoodCreateScreen />} />
                     <Route path='foods/:id' element={<FoodDetailsScreen />} />
