@@ -2,13 +2,13 @@
     padding: 80px;
 }
 
-.container {
+.topContainer {
     display: flex;
     align-items: center;
     gap: 20px;
 }
 
-img {
+.topContainer img {
     width: 200px;
     height: 200px;
 }
@@ -17,115 +17,47 @@ img {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    width: min-content;
 }
 
-.headdingContainer p {
-    padding-top: 16px;
+.headdingContainer input {
+    font-size: 28px;
+    outline: none;
 }
 
-.headding {
+.headdingContainer textarea {
+    outline: none;
+}
+
+.middleContainer {
     display: flex;
-    gap: 20px;
+    gap: 10px;
+    margin-top: 20px;
     align-items: center;
 }
 
-.headding input {
-    font-size: 24px;
-    outline: none;
+.middleContainer input {
+    padding: 5px;
+    width: 50px;
 }
 
-.description {
-    display: flex;
-    gap: 20px;
-    align-items: center;
+.middleContainer select {
+    padding: 5px;
 }
 
-.description textarea {
-    outline: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+.bottomContainer h3 {
+    padding: 20px 0px;
 }
 
-.a {
-    border: none;
-    outline: none;
-    width: 100px;
-}
-
-.createIcons {
-    display: flex;
-    gap: 10px;
-}
-
-.ingeredients h3 {
-    padding-top: 20px;
-    padding-bottom: 16px;
-}
-
-.ingeredients form select {
-    padding: 10px;
-    border-radius: 5px;
-    outline: none;
-}
-
-.ingeredients form button {
-    margin-left: 10px;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-}
-
-.incredientContainer {
-    background-color: rgb(239, 239, 239);
-    width: max-content;
+.bottomContainer select {
     padding: 5px;
     border-radius: 5px;
-}
-
-.ingredientListContainer {
-    gap: 10px;
-    padding-top: 10px;
-    display: flex;
-    width: 1000px;
-    flex-wrap: wrap;
-}
-
-.closeButton {
-    border: none;
     outline: none;
+    margin-right: 10px;
 }
 
-.catogery h3 {
-    padding-top: 20px;
-    padding-bottom: 16px;
-}
-
-.catogery form select {
-    padding: 10px;
-    border-radius: 5px;
+.bottomContainer button {
     outline: none;
-}
-
-.catogery form button {
-    margin-left: 10px;
-    padding: 10px;
     border: none;
+    padding: 7px;
     border-radius: 5px;
-}
-
-.incredientContainer {
-    background-color: rgb(239, 239, 239);
-    width: max-content;
-    padding: 5px;
-    border-radius: 5px;
-}
-
-.ingredientListContainer {
-    gap: 10px;
-    padding-top: 10px;
-    display: flex;
-    width: 1000px;
-    flex-wrap: wrap;
 }
