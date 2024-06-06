@@ -2,6 +2,10 @@ import React, { useState } from 'react';
 import style from '../styles/loginScreen.module.css';
 import { Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
+import toast, { Toaster } from 'react-hot-toast';
+
+const notify = () => toast('Here is your toast.');
+
 
 function LoginScreen() {
     const navigate = useNavigate();
@@ -17,9 +21,9 @@ function LoginScreen() {
             password: password
         })
             .then(function (response) {
-                // Assuming response status 200 indicates success
                 if (response.status === 200) {
                     setError(false);
+                    toast('Login successfully.');
                     navigate('/layout/foods');
                 } else {
                     setError(true);
@@ -27,6 +31,7 @@ function LoginScreen() {
             })
             .catch(function (error) {
                 console.log(error);
+                toast.error('invalid username or password')
                 setError(true);
             });
     }
@@ -51,6 +56,10 @@ function LoginScreen() {
                     <button type="submit">Sign in</button>
                 </form>
             </div>
+            <Toaster
+                position="bottom-center"
+                reverseOrder={false}
+            />
         </div>
     );
 }
